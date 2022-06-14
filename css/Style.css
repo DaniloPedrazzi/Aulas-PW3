@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1c1c1c;
+}
+
+p,
+h1,
+h2,
+h3,
+span,
+input {
+  color: white;
+}
+
+.header {
+  overflow: hidden;
+  background-color: rgb(17, 17, 17);
+  padding: 20px 10px;
+}
+
+.header a {
+  background-color: rgb(17, 17, 17);
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+
+.cadastro{
+  color: white;
+  text-decoration: none;
+  border: 1px solid #13b5d1;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-top: 10px;
+  transition-duration: 0.2s;
+  background-color: #13b5d1;
+}
+
+.cadastro:hover{
+  background-color: #13b5d1;
+  color: black;
+  transition-duration: 0.2s;
+}
+
+input {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-top: 10px;
+  transition-duration: 0.2s;
+}
+
+input:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 0.2s;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, td, th{
+  padding: 8px;
+  border: 1px solid white;
+}
+
+img{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-comprar{
+  font-weight: bold;
+  color: #1c1c1c;
+  text-decoration: none;
+  background-color: #53c300;
+  border-radius: 5px;
+  padding: 8px 15px;
+  transition-duration: 0.2s;
+}
+
+.btn-comprar:hover{
+  background-color: chartreuse;
+  color: #1c1c1c;
+  transition-duration: 0.2s;
+}
+
+.container-produto{
+    max-width: 220px;
+	margin: 25px;
+	min-height: 250px;
+	border: 2px solid white;
+	padding: 30px;
+	border-radius: 10px;
+}

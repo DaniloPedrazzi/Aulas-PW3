@@ -1,0 +1,61 @@
+create database bdpw3;
+use bdpw3;
+create table tbCategoria(
+ idCategoria int primary key auto_increment
+,categoria varchar(50)
+);
+
+create table tbProduto(
+ idProduto int primary key auto_increment
+,produto varchar(50)
+,idCategoria int
+,valor float
+,img varchar(150)
+,foreign key(idCategoria) references tbCategoria(idCategoria) 
+);
+
+create table tbUser(
+ idUser int primary key auto_increment
+ ,userName varchar(50)
+ ,userSenha varchar(50)
+);
+
+insert into tbCategoria values(
+ null
+,'Alimentacao'
+);
+
+insert into tbCategoria values(
+ null
+,'Tecnologia'
+);
+
+insert into tbProduto values(
+null
+,'Biscoito'
+,1
+,3.5
+,'Images/Biscoito.png'
+);
+
+insert into tbProduto values(
+null
+,'SmartPhone'
+,2
+,2500
+,'Images/SmartPhone.png'
+);
+
+insert into tbProduto values(
+null
+,'Chocolate'
+,2
+,8
+,'Images/Chocolate.png'
+);
+
+insert into tbUser values(
+ null
+,'Admin'
+,'123'
+);
