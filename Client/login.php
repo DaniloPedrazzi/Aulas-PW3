@@ -29,11 +29,7 @@ if(isset($_GET['errodados'])){
 		<div>
 			<input type="text" placeholder="Senha" name="senha">
 		</div>
-		<div>
 			<input type="submit" value="Login">
-		</div>
-		<div>
 			<a class="cadastro" href="cadastro.php">Cadastro</a>
-		</div>
 	</form>
 </section>

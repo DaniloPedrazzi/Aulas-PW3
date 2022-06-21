@@ -54,6 +54,7 @@
 			?>	
 		</tbody>		
 	</table>
+	<br>
 	<a style="color:white" href="categorias-json.php">Exibir em JSON</a>
 </section>
 </center>
